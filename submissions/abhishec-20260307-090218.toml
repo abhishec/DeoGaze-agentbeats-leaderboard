@@ -1,0 +1,17 @@
+[green_agent]
+agentbeats_id = "agentbeater/entropic-crmarenapro"
+env = { LOG_LEVEL = "INFO" }
+
+[[participants]]
+agentbeats_id = "abhishec/purple-business-process-agent"
+name = "agent"
+env = { ANTHROPIC_API_KEY = "${ANTHROPIC_API_KEY}", GREEN_AGENT_MCP_URL = "http://green-agent:9009", FALLBACK_MODEL = "claude-haiku-4-5-20251001" }
+
+[config]
+task_limit = 2140
+drift_level = "none"
+rot_level = "none"
+max_steps = 1
+timeout = 60
+org_type = "b2c"
+# run_id = 4
