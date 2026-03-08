@@ -1,0 +1,17 @@
+{
+  "image_digests": {
+    "green-agent": "ghcr.io/rkstu/entropic-crmarena-green@sha256:f801c2584235faa0750eae35eeba494107919a59eb12bb4e53ede15e9ff620d3",
+    "agent": "public.ecr.aws/d9m7h3k5/agentbench-purple@sha256:3db09c75ad84520db310769f3c73dff13a686c92611c56e1cbe2d15e4883b66e",
+    "agentbeats-client": "ghcr.io/agentbeats/agentbeats-client@sha256:13dfe3ef4e583a80e7ce2fe3becd0ce3b879841368a7f4fa40b6ebbabeeb014e"
+  },
+  "timestamp": "2026-03-08T23:55:12Z",
+  "github_actions": {
+    "run_url": "https://github.com/abhishec/DeoGaze-agentbeats-leaderboard/actions/runs/22832000529",
+    "run_logs_url": "https://api.github.com/repos/abhishec/DeoGaze-agentbeats-leaderboard/actions/runs/22832000529/logs",
+    "ref": "refs/heads/main",
+    "sha": "3c5e5ef985dbf930c81d385388d2d121495011eb",
+    "repository_url": "https://github.com/abhishec/DeoGaze-agentbeats-leaderboard",
+    "workflow_ref": "abhishec/DeoGaze-agentbeats-leaderboard/.github/workflows/run-scenario.yml@refs/heads/main",
+    "workflow_sha": "3c5e5ef985dbf930c81d385388d2d121495011eb"
+  }
+}
